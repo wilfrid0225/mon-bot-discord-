@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: mon-bot-liberty-rp
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
