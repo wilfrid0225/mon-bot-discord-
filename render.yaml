@@ -1,6 +1,6 @@
 services:
-  - type: worker
-    name: mon-bot-liberty-rp
+  - type: web
+    name: mon-bot-discord
     runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
